@@ -1,0 +1,44 @@
+name: biruni_connect3
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  lottie: ^2.3.2  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Uygulamanızda kullanılacak varlıklar (görseller, animasyonlar)
+  assets:
+    - lib/assets/images/logo.png
+    - lib/assets/images/back.png
+    - lib/assets/images/onboarding .png  
+    - lib/assets/images/new.json 
+    - lib/assets/images/newlogo.png
+    - lib/assets/images/unilogo.png
+    - lib/assets/images/1.jpg
+    - lib/assets/images/2.jpg
+    - lib/assets/images/3.jpg
+    - lib/assets/images/text.png
+    - lib/assets/images/duyuru1.png
+    - lib/assets/images/duyuru2.png
+    - lib/assets/images/duyuru3.png
+    - lib/assets/images/olanak1.png
+    - lib/assets/images/olanak2.png
+    - lib/assets/images/olanak3.png
+
+
